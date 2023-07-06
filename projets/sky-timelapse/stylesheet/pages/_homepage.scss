@@ -1,0 +1,293 @@
+/*body*/
+body {
+    overflow: hidden;
+    @include sky-background;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    animation: 20s linear infinite sky-color;
+}
+@keyframes sky-color {
+    0% {
+        background: rgb(43, 138, 199);
+    }
+    25% {
+        background: rgb(2,0,36);
+    }
+    50% {
+        background: rgb(2,0,36);
+    }
+    80% {
+        background: rgb(0,212,255);
+    }
+    95% {
+        background: rgb(0,212,255);
+    }
+    100% {
+        background: rgb(43, 138, 199);
+    }
+}
+
+/*hearth*/
+.hearth {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    background: $hearth-background;
+    border-radius: 100% 100% 0 0;
+    z-index: 99;
+}
+
+/*moon & sun*/
+.planet-container {
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    width: 120%;
+    height: 100%;
+    animation: 20s infinite linear reverse planet-phase;
+    z-index: 2;
+    &__moon {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background-color: grey;
+        filter: drop-shadow(0 0 10px white);
+    }
+    &__sun {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background-color: yellow;
+        filter: drop-shadow(0 0 10px white);
+    }
+}
+@keyframes planet-phase {
+    0% { 
+        transform:rotate(0deg); 
+    } 
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+
+/**************************************night**************************************/
+/*sky*/
+.night {
+    width: 80vw;
+    height: 100%;
+    /*stars*/
+    .stars-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: -1;    
+            &__star {
+                $total: 40;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background-color: white;
+                filter: drop-shadow(0 0 10px white);
+                animation: 20s linear 0s infinite shine;
+                @for $i from 1 through $total {
+                    $random-x: random(100000) * 0.0001vw;
+                    $random-offset: random_range(-100000, 100000) * 0.0001vw;
+                    $random-x-end: $random-x + $random-offset;
+                    $random-yoyo-time: calc(random_range(30000, 80000) / 100000);
+                    $random-yoyo-y: $random-yoyo-time * 100vh;
+                    $random-scale: random(10000) * 0.0001;
+                
+                    &:nth-child(#{$i}) {
+                    opacity: random(10000) * 0.0001;
+                    transform: translate($random-x-end, $random-yoyo-y) scale($random-scale);
+                    }
+                }
+                @keyframes shine {
+                    0% {
+                        opacity: 0;
+                    }
+                    15% {
+                        opacity: 0.5;
+                    }
+                    50% {
+                        opacity: 1;
+                    }
+                    60% {
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            }
+    }
+}
+
+
+/**************************************day**************************************/
+.day {
+    width: 100%;
+    height: 100%;
+    .clouds-container {
+        display: flex;
+        position: absolute;
+        top: 20%;
+        height: 80%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        z-index: -1;
+        animation: 20s linear 0s infinite running scroll-cloud;
+            &__cloud {
+                width: 150px;
+                height: 150px;
+                position: relative;
+                background-color: white;
+                border-radius: 100% 100% 0 0;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    z-index: -1;
+                    background-color: white;
+                    border-radius: 100%;
+                    /*la taille pour l'oreille gauche du nuage*/
+                    width: 125px;
+                    height: 125px;
+                    left: -80px;
+                    border-bottom-right-radius: 0;
+
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    z-index: -1;
+                    background-color: white;
+                    border-radius: 100%;
+                    /*la taille pour l'oreille droite*/
+                    width: 80px;
+                    height: 80px;
+                    right: -60px;
+                    border-bottom-left-radius: 0;
+                }
+            }
+        }
+        @keyframes scroll-cloud {
+            0% {
+              transform: translate3d(120%,0,0);      /* position initiale à droite */
+              opacity: 0;
+            }
+            10% {
+                opacity: 0;
+            }
+            60% {
+                opacity: 0;
+            }
+            75% {
+                transform: translate3d(110%,0,0);      /* position initiale à droite */
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+              transform: translate3d(-100%,0,0);  /* position finale à gauche */
+              opacity: 0;
+            }
+          }
+}
+
+
+/*responsive - media-queries*/
+@media screen and (max-width: 1440px) {
+    /*hearth*/
+    .hearth {
+        height: 20vh;
+    }
+    /*moon & sun*/
+    .planet-container {
+        position: absolute;
+        left: 50%;
+        bottom: 0%;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;        
+        animation: 20s infinite linear planet-phase;
+        overflow: hidden;
+        &__sun {
+            display: none;
+        }
+        &__moon {
+            display: none;
+        }
+    }
+    @keyframes planet-phase {
+        0% { 
+            transform: translate(0%, 0%);
+        } 
+        25% {
+            transform: translate(0%, -75vh); 
+            background-color: grey;
+            filter: drop-shadow(0 0 10px white);
+            z-index: 2;
+        }
+        50% {
+            transform: translate(0%, 25vh); 
+            background-color: grey;
+            filter: drop-shadow(0 0 10px white);
+            z-index: 2;       
+        }
+        55% {
+            background-color: yellow;
+            filter: drop-shadow(0 0 10px white);
+            z-index: -1;
+        }
+        75% {
+        transform: translate(0%, -75vh);
+        z-index: -1;
+        }
+        100% {
+            transform: translate(0%, 10vh);
+            background-color: yellow;
+            filter: drop-shadow(0 0 10px white);
+            z-index: -1;
+        }
+    }
+    /*clouds*/
+    .clouds-container {
+        left: 0%;
+        overflow: hidden;
+    }
+    @keyframes scroll-cloud {
+        0% {
+          opacity: 0;
+        }
+        10% {
+            opacity: 0;
+        }
+        60% {
+            opacity: 0;
+        }
+        75% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+}

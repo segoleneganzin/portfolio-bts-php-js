@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/portfolio-bts-php-js/img/background-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(50px);
+  overflow-x: hidden;
+}
+html {
+  overflow-x: hidden;
+}
+
+main {
+  min-height: 61vh;
+}
+
+.img {
+  border-radius: 10px;
+  margin: 2% auto;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("/portfolio-bts-php-js/img/responsive-back.jpg");
+  }
+}

@@ -1,0 +1,26 @@
+.xp {
+  height: 100%;
+  a {
+    display: block;
+    width: fit-content;
+    margin: 8% auto;
+  }
+  .button-link {
+    background-color: $principal-text-color;
+    border-radius: 10px;
+    padding: 5%;
+    margin: auto;
+    color: $secondary-text-color;
+  }
+
+  h3 {
+    text-align: center;
+    margin: 5%;
+  }
+
+  .embed-docs {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+  }
+}

@@ -1,0 +1,30 @@
+.log-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 60vh;
+  .form-item {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    font-size: 1.5rem;
+    input {
+      border-radius: 10px;
+      border: none;
+      color: $secondary-text-color;
+      padding: 5px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  button {
+    width: fit-content;
+    color: $secondary-text-color;
+    border: none;
+    border-radius: 10px;
+    margin: 3% auto;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  @media screen and (max-width: 1040px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2% 0 0;
+    text-align: right;
+  }
+  .item-menu {
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    margin: auto;
+  }
+}

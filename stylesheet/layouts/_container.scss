@@ -1,0 +1,31 @@
+.container {
+  margin: 5vh auto 2% auto;
+  width: 90%;
+  p {
+    margin: auto;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 2% auto;
+  }
+  h2 {
+    font-weight: 600;
+  }
+  a {
+    font-size: 1.5rem;
+    color: $violet;
+  }
+  .embed {
+    width: fit-content;
+    margin: 5vh auto;
+  }
+  &--link {
+    width: fit-content;
+    margin: auto;
+    padding: 2%;
+    img {
+      max-width: 80vw;
+    }
+  }
+}

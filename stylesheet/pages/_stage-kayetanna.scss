@@ -1,0 +1,33 @@
+.stage {
+  .logo-k {
+    margin-left: 38%;
+    width: 20vw;
+    height: 20vw;
+  }
+  h2 {
+    margin-top: 4%;
+  }
+  .quote {
+    text-align: center;
+    border: 2px solid $principal-text-color;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 2%;
+    margin: 2% auto;
+  }
+  li {
+    margin-top: 3%;
+    font-size: 1.5rem;
+  }
+  img {
+    margin: 2% auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stage {
+    img {
+      max-width: 70vw;
+    }
+  }
+}

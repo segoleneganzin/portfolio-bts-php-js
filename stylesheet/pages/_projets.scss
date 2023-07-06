@@ -1,0 +1,21 @@
+// /*********************projets**********************/
+.projets {
+  margin: 2% auto 5% auto;
+
+  .carousel-inner .item img,
+  .carousel-inner .item a img {
+    width: 70%;
+    margin: auto;
+  }
+
+  .carousel-caption {
+    position: relative;
+    top: 5%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: fit-content;
+    margin: auto;
+    color: $principal-text-color;
+  }
+}

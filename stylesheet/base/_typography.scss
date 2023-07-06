@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "RobotoMono";
+  src: url("../font/Roboto_Mono/static/RobotoMono-Regular.ttf");
+}
+@font-face {
+  font-family: "Tangerine";
+  src: url("../font/Tangerine/Tangerine-Regular.ttf");
+}
+@font-face {
+  font-family: "DancingScript";
+  src: url("./font/Dancing_script/static/DancingScript-Regular.ttf");
+}
+body {
+  font-family: "RobotoMono", sans-serif;
+  color: $principal-text-color;
+}
+a {
+  text-decoration: none;
+  color: $principal-text-color;
+  font-weight: 600;
+  font-size: 25px;
+}
+a:hover {
+  color: $blue;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.5rem;
+  padding: 2%;
+  font-weight: 600;
+}
+p {
+  font-size: 1.5rem;
+}
+.important-word {
+  font-weight: 500;
+  color: $orange;
+}
+.quote {
+  font-style: italic;
+}
+li {
+  font-size: 1.5rem;
+}

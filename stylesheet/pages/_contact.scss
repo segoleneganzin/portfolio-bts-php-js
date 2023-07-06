@@ -1,0 +1,127 @@
+/*********************contact**********************/
+.contact .container {
+  img {
+    display: block;
+    margin: 10% auto 0 auto;
+  }
+}
+
+// /********************************************pour le form si besoin
+// .form-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding-bottom: 5%;
+//   padding-top: 5%;
+// }
+// .form-item {
+//   padding: 1%;
+//   background-color: var(--background-color-secondary);
+//   position: relative;
+//   margin: auto;
+//   border: 2px solid var(--a-focus-color);
+// }
+// iframe {
+//   display: block;
+//   margin: auto;
+// }
+// /*****************************************************contenu du formulaire********************************************/
+// input {
+//   width: 100%;
+//   height: 50px;
+// }
+// select {
+//   width: 100%;
+// }
+// textarea {
+//   width: 100%;
+//   height: 200px;
+// }
+// button {
+//   display: block;
+//   margin: auto;
+// }
+// legend {
+//   color: var(--text-color);
+// }
+
+// /*********************************************responsive****************************************/
+
+// @media all and (max-width: 1300px) {
+//   .form-container {
+//     flex-direction: column;
+//   }
+//   .form-item {
+//     padding: 5%;
+//   }
+//   iframe {
+//     width: 90%;
+//   }
+// }
+// @media all and (max-width: 680px) {
+//   .form-item {
+//     width: 80%;
+//   }
+// }
+// /**********************************ajout formulaire JQuery**************************************/
+// #frmContact {
+//   border-top: #f0f0f0 2px solid;
+//   background: #faf8f8;
+//   padding: 10px;
+// }
+// #frmContact div {
+//   margin-bottom: 15px;
+// }
+// #frmContact div label {
+//   margin-left: 5px;
+// }
+// .inputBox {
+//   padding: 10px;
+//   border: #f0f0f0 1px solid;
+//   border-radius: 4px;
+// }
+// .error {
+//   /* background-color: #FF6600; */
+//   /* padding: 5px 10px; */
+//   border: 2px solid red;
+//   /* border-radius:4px;} */
+// }
+// .ok {
+//   background-color: white;
+//   color: black;
+//   border: none;
+// }
+// .success {
+//   display: none;
+//   background-color: #12cc1a;
+//   border: #0fa015 1px solid;
+//   width: 50%;
+//   margin: auto;
+//   text-align: center;
+//   color: #ffffff;
+//   border-radius: 4px;
+// }
+// .form-status {
+//   display: none;
+// }
+// .info {
+//   font-size: 0.8em;
+//   color: #ff6600;
+//   letter-spacing: 2px;
+//   padding-left: 5px;
+// }
+// .btnAction {
+//   background-color: #2fc332;
+//   border: 0;
+//   padding: 10px 40px;
+//   color: #fff;
+//   border: #f0f0f0 1px solid;
+//   border-radius: 4px;
+// }
+// .btnReload {
+//   background-color: #8b8b8b;
+//   border: 0;
+//   padding: 7px 10px;
+//   color: #fff;
+//   float: left;
+// }

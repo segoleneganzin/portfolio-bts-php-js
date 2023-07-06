@@ -1,0 +1,51 @@
+.private {
+  height: 100%;
+  a {
+    display: block;
+    width: fit-content;
+    margin: 8% auto;
+  }
+  p {
+    text-align: left;
+  }
+  h3 {
+    margin: 5%;
+  }
+  &__item {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5vh auto;
+    gap: 10%;
+    border: 2px solid $principal-text-color;
+    border-radius: 10px;
+    padding: 2%;
+    &--header {
+      width: 25vw;
+      color: $orange;
+    }
+  }
+  .error-log {
+    height: 42vh;
+    p {
+      font-weight: 600;
+      margin-top: 10vh;
+      color: red;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .private {
+    &__item {
+      flex-direction: column;
+      gap: 5%;
+      &--header {
+        text-align: center;
+        width: 50vw;
+      }
+    }
+  }
+}

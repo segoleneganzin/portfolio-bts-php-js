@@ -1,0 +1,17 @@
+{
+  "name": "sky-timelapse",
+  "version": "1.0.0",
+  "description": "sky timelapse",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./stylesheet/style.scss:./stylesheet/style.css",
+    "prefix": "postcss ./stylesheet/style.css --use autoprefixer -d ./stylesheet/prefixed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segoleneganzin/sky-timelapse.git"
+  },
+  "author": "sg",
+  "license": "ISC",
+  "browserslist": "last 4 versions"
+}
