@@ -25,7 +25,7 @@
 <div class="container training">
     <h1>Parcours</h1>
     <h3>Formations et expériences</h3>
-    <img src="./img/training2.png" alt="parcours de formation">
+    <img src="./img/training3.png" alt="parcours de formation">
 </div>
 <!-- ********************************************************competences -->
 <div class=" container skills">
