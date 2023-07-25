@@ -1,9 +1,12 @@
 <div class="container reveal presentation">
-    <h1>Présentation</h1>
+    <h1>Qui suis-je ?</h1>
+    <p>Je suis une <span class="important-word">passionnée</span> d'informatique qui a choisi de passer quelques années à cuisiner avant de repartir dans le monde du numérique.<br>
+        Rassurez-vous, je ne suis pas adepte de code spaghetti pour autant ! </p>
+
+    <h1>Ma rencontre avec l'informatique</h1>
     <p>
-        J’ai évolué entourée d’ordinateurs et de périphériques en tout
-        genre, au travers de l’entreprise familiale, et cela m’a toujours
-        suivi et intéressé.<br>
+        Ai-je réellement croisé un ordinateur par hasard ? Je ne pense pas !<br>
+        J'ai grandi parmi les nouvelles technologies et les périphériques en tout genre, à travers l’entreprise familiale, et cela m’a toujours suivi et intéressé.<br>
         J’ai toujours aimé essayer de
         <span class="important-word">comprendre</span> le fonctionnement
         des ordinateurs, <span class="important-word">résoudre</span> des
@@ -14,18 +17,19 @@
         <br>
     </p>
 
-    <h2>Pourquoi en faire mon métier ?</h2><br>
-    <p>La conception, le développement et la mise en production de solutions applicatives me passionnent.<br>
+    <h1>Pourquoi en faire mon métier ?</h1>
+    <p>La <span class="important-word">conception</span>, le <span class="important-word">développement</span> et la <span class="important-word">mise en production</span> de solutions applicatives me passionnent.<br>
         <br>
+
+        <!-- mon cv -->
+    <div class="link-cv"><a href="./docs/cv-sg_.pdf" target="_blank">Consulter mon CV</a></div>
     </p>
-    <!-- mon cv -->
-    <a href="./docs/cv-sg_.pdf" target="_blank">Consulter mon CV</a>
 </div>
 <!-- ********************************************************formations et experiences -->
 <div class="container training">
     <h1>Parcours</h1>
     <h3>Formations et expériences</h3>
-    <img src="./img/training3.png" alt="parcours de formation">
+    <img src="./img/training4.png" alt="parcours de formation">
 </div>
 <!-- ********************************************************competences -->
 <div class=" container skills">

@@ -281,6 +281,21 @@ footer .social-media {
     transform: translate(24px, 0);
   }
 }
+.presentation h1 {
+  text-align: left;
+}
+.presentation .link-cv {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2%;
+  margin: 2% auto;
+  background-color: #f8ae48;
+  border-radius: 10px;
+}
+.presentation .link-cv a {
+  font-size: 2rem;
+}
+
 /*********************formation et experiences**********************/
 .training {
   margin: auto;
