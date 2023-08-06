@@ -6,7 +6,7 @@
     <h1>Ma rencontre avec l'informatique</h1>
     <p>
         Ai-je réellement croisé un ordinateur par hasard ? Je ne pense pas !<br>
-        J'ai grandi parmi les nouvelles technologies et les périphériques en tout genre, à travers l’entreprise familiale, et cela m’a toujours suivi et intéressé.<br>
+        J'ai grandi parmi les nouvelles technologies et les périphériques en tout genre, à travers l’entreprise familiale d'édition de logiciels, et cela m’a toujours suivi et intéressé.<br>
         J’ai toujours aimé essayer de
         <span class="important-word">comprendre</span> le fonctionnement
         des ordinateurs, <span class="important-word">résoudre</span> des
@@ -29,7 +29,7 @@
 <div class="container training">
     <h1>Parcours</h1>
     <h3>Formations et expériences</h3>
-    <img src="./img/training4.png" alt="parcours de formation">
+    <img src="./img/training5.png" alt="parcours de formation">
 </div>
 <!-- ********************************************************competences -->
 <div class=" container skills">
@@ -96,7 +96,7 @@
     </div>
 </div>
 <!-- ********************************************************projets professionnels -->
-<div class=" container projet-professionnel">
+<!-- <div class=" container projet-professionnel">
     <h1>Mon projet professionnel</h1>
     <div class="container--link"><a rel="ugc" href="https://www.cci-formation-bretagne.fr/cci-formation-56-lorient/lorient/concepteur-de-systemes-dinformation-csi" target="_blank"><img src="./img/projet-pro.png" alt="formation concepteur de systèmes d'information"></a></div>
     <p>Le développement de solutions applicatives m'intéresse beaucoup et me passionne.<br>
@@ -105,6 +105,18 @@
         L'acquisition d'un complément de formation me permettant d'obtenir un diplôme de <span class="important-word">niveau 6 (bac +3)</span> est une réelle motivation.<br>
         J'étudie également le fait de poursuivre encore après avec une formation en <span class="important-word">management et conduite de projets informatiques (bac +5)</span>.<br>
         Pour mener à bien mes objectifs je suis donc à la recherche d'une alternance pour effectuer mon cursus avec la <span class="important-word">Chambre de Commerce et d'Industrie de Lorient</span>. <br>
+
+    </p>
+</div> -->
+<div class=" container projet-professionnel">
+    <h1>Mon projet professionnel</h1>
+    <div class="container--link"><a rel="ugc" href="https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react" target="_blank"><img src="./img/devJS.png" alt="formation JavaScript React"></a></div>
+    <p>Le côté front-office m'intéresse beaucoup et me passionne.<br>
+        J'aime la liberté de création que cela implique, c'est pourquoi je souhaite approfondir mes connaissances en intégrant une <span class="important-word">formation dans le développement d'application Web en JavaScript et React</span>.<br>
+        L'acquisition d'un complément de formation me permettant d'obtenir un diplôme de niveau 6 (bac +3/4) est une réelle motivation.<br>
+        J'étudie également le fait de poursuivre encore après avec une formation en <span class="important-word">UX Designer</span>.<br>
+        L'analyse et l'amélioration de l'expérience utilisateur m'intéressent beaucoup.<br>
+        Pour mener à bien mes objectifs je suis donc à la recherche d'une alternance pour effectuer mon cursus avec OpenClassRooms. <br>
 
     </p>
 </div>
