@@ -20,10 +20,10 @@
     <h1>Pourquoi en faire mon métier ?</h1>
     <p>La <span class="important-word">conception</span>, le <span class="important-word">développement</span> et la <span class="important-word">mise en production</span> de solutions applicatives me passionnent.<br>
         <br>
-
-        <!-- mon cv -->
-    <div class="link-cv"><a href="./docs/cv-sg_.pdf" target="_blank">Consulter mon CV</a></div>
     </p>
+    <!-- mon cv -->
+    <div class="link-cv"><a href="./docs/cv-sg_.pdf" target="_blank">Consulter mon CV</a></div>
+
 </div>
 <!-- ********************************************************formations et experiences -->
 <div class="container training">
@@ -96,21 +96,9 @@
     </div>
 </div>
 <!-- ********************************************************projets professionnels -->
-<!-- <div class=" container projet-professionnel">
-    <h1>Mon projet professionnel</h1>
-    <div class="container--link"><a rel="ugc" href="https://www.cci-formation-bretagne.fr/cci-formation-56-lorient/lorient/concepteur-de-systemes-dinformation-csi" target="_blank"><img src="./img/projet-pro.png" alt="formation concepteur de systèmes d'information"></a></div>
-    <p>Le développement de solutions applicatives m'intéresse beaucoup et me passionne.<br>
-        C'est pourquoi je souhaite poursuivre ma <span class="important-word">formation dans le développement d'applications</span>.<br>
-        De la phase d'<span class="important-word">étude des besoins</span> à la <span class="important-word">mise en production</span> et la <span class="important-word">maintenance</span>, sans faire impasse sur la <span class="important-word">documentation</span>, tout cet enchainement est source de défi et de motivation qui me pousse à toujours vouloir aller plus loin.<br>
-        L'acquisition d'un complément de formation me permettant d'obtenir un diplôme de <span class="important-word">niveau 6 (bac +3)</span> est une réelle motivation.<br>
-        J'étudie également le fait de poursuivre encore après avec une formation en <span class="important-word">management et conduite de projets informatiques (bac +5)</span>.<br>
-        Pour mener à bien mes objectifs je suis donc à la recherche d'une alternance pour effectuer mon cursus avec la <span class="important-word">Chambre de Commerce et d'Industrie de Lorient</span>. <br>
-
-    </p>
-</div> -->
 <div class=" container projet-professionnel">
     <h1>Mon projet professionnel</h1>
-    <div class="container--link"><a rel="ugc" href="https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react" target="_blank"><img src="./img/devJS.png" alt="formation JavaScript React"></a></div>
+    <div class="container__link"><a rel="ugc" href="https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react" target="_blank"><img src="./img/devJS.png" alt="formation JavaScript React"></a></div>
     <p>Le côté front-office m'intéresse beaucoup et me passionne.<br>
         J'aime la liberté de création que cela implique, c'est pourquoi je souhaite approfondir mes connaissances en intégrant une <span class="important-word">formation dans le développement d'application Web en JavaScript et React</span>.<br>
         L'acquisition d'un complément de formation me permettant d'obtenir un diplôme de niveau 6 (bac +3/4) est une réelle motivation.<br>

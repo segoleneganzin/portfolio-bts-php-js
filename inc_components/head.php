@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--Mon CSS-->
-    <!-- <link type="text/css" rel="stylesheet" href="./stylesheet/prefixed/style.css"> -->
-    <link type="text/css" rel="stylesheet" href="./stylesheet/style.css">
+    <link type="text/css" rel="stylesheet" href="./stylesheet/prefixed/style.css">
+    <!-- <link type="text/css" rel="stylesheet" href="./stylesheet/style.css"> -->
 
     <!--meta-->
     <title>Ségolène Ganzin</title>
-    <meta name="description" content="Portfolio, étudiante en BTS SIO SLAM, avec pour objectif de devenir développeuse Web en React et JavaScript. Résoudre des problèmes, trouver des solutions, me sentir utile, m’amuser à coder, apprendre en permanence, découvrir et créer de nouvelles choses.">
+    <meta name="description" content="Je suis Ségolène Ganzin, Développeuse Web fullstack avec une spécialisation Front-End. Je suis passionnée par les nouvelles technologies et l'expérience utilisateur. ">
     <!-- définission de l'URL officielle de la page web afin de réduire les problèmes liés aux contenus dupliqués -->
     <meta name="canonical" content="https://www.segoleneganzin.fr">
     <meta name="language" content="fr">
